@@ -35,7 +35,7 @@ public class ViewMapper {
 				}
 				String text = param.setText();
 				if (text.length() > 0){
-					if (field.getType().getSimpleName().equals("TextView")){
+					if (field.getType().getSimpleName().equals("TextView") || field.getType().getSimpleName().equals("Button")){
 						TextView a = (TextView)view0;
 						a.setText(text);
 					}

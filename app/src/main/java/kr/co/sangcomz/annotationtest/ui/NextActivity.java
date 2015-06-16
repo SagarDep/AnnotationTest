@@ -14,32 +14,21 @@ import kr.co.sangcomz.annotationtest.view.DeclareView;
 
 public class NextActivity extends CycleControllerActivity {
 
-    @DeclareView(id = R.id.txttt, setText = "아하하하하하")
-    TextView txttt;
 
-    @BundleField(name = "bundleField")
-    public String bundleField;
+    @BundleField(name = "et1Str")
+    public String et1Str;
 
-    @BundleField(name = "a")
-    public String a;
+    @BundleField(name = "et2Str")
+    public String et2Str;
 
-    @BundleField(name = "b")
-    public String b;
-
-    @BundleField(name = "c")
-    public String c;
+    @BundleField(name = "et3Str")
+    public String et3Str;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         BundleMapper.fromBundle(this, getIntent().getBundleExtra(null));
         setContentView(R.layout.activity_next, true);
-
-        txttt.setText(bundleField);
-
-        System.out.println("a ::::: " + a);
-        System.out.println("b ::::: " + b);
-        System.out.println("c ::::: " + c);
     }
 
     @Override
