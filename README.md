@@ -1,15 +1,7 @@
 # AnnotationTest
 How to use Annotation
 
-#1.Add @interface
+# Source 출처
+https://github.com/naver/deview2014-androidApp-demo를 수정하였습니다.
 
-@Target(ElementType.FIELD)
-@Retention(RetentionPolicy.RUNTIME)
-public @interface DeclareView {
-	int id() default 0;
-	String name() default "";
-	String tag() default "";
-	String click() default "";
-	String setText() default "";
-}
 
