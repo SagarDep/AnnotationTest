@@ -14,6 +14,8 @@ import kr.co.sangcomz.annotationtest.view.DeclareView;
 
 public class NextActivity extends CycleControllerActivity {
 
+    @DeclareView(id = R.id.txttt)
+    TextView textView;
 
     @BundleField(name = "et1Str")
     public String et1Str;
@@ -29,6 +31,8 @@ public class NextActivity extends CycleControllerActivity {
         super.onCreate(savedInstanceState);
         BundleMapper.fromBundle(this, getIntent().getBundleExtra(null));
         setContentView(R.layout.activity_next, true);
+
+        textView.setText("e1Str :::: " + et1Str + "\ne2Str :::: " + et2Str+ "\ne3Str :::: " + et3Str);
     }
 
     @Override

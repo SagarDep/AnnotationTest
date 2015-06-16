@@ -16,7 +16,7 @@ import kr.co.sangcomz.annotationtest.core.transfer.BundleMapper;
 import kr.co.sangcomz.annotationtest.view.DeclareView;
 
 
-public class MainActivity extends CycleControllerActivity implements View.OnClickListener{
+public class MainActivity extends CycleControllerActivity implements View.OnClickListener {
 
     @DeclareView(id = R.id.txt, setText = "안녕하세요 ANNOTATION Test입니다.")
     TextView txt;
@@ -25,7 +25,7 @@ public class MainActivity extends CycleControllerActivity implements View.OnClic
     EditText et1;
     @DeclareView(id = R.id.et2)
     EditText et2;
-    @DeclareView(id = R.id.et2)
+    @DeclareView(id = R.id.et3)
     EditText et3;
 
     @DeclareView(id = R.id.btn, setText = "NextActivity", click = "this")
@@ -39,14 +39,11 @@ public class MainActivity extends CycleControllerActivity implements View.OnClic
 
     @BundleField(name = "et3Str")
     public String et3Str;
-
-
-
-
+    
     @Override
     public void onClick(View view) {
         int id = view.getId();
-        switch (id){
+        switch (id) {
             case R.id.btn:
                 Intent i = new Intent(this, NextActivity.class);
                 et1Str = et1.getText().toString();
@@ -56,9 +53,7 @@ public class MainActivity extends CycleControllerActivity implements View.OnClic
                 startActivity(i);
                 break;
         }
-
     }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,28 +61,4 @@ public class MainActivity extends CycleControllerActivity implements View.OnClic
         setContentView(R.layout.activity_main, true); //setViewMap
 
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-
 }
