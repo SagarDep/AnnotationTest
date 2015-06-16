@@ -39,7 +39,7 @@ public class MainActivity extends CycleControllerActivity implements View.OnClic
 
     @BundleField(name = "et3Str")
     public String et3Str;
-    
+
     @Override
     public void onClick(View view) {
         int id = view.getId();
