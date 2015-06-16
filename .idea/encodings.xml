@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/CycleControllerActivity.java" charset="x-windows-949" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/Marker.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/lifecycle/CycleBaseLayout.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/lifecycle/CycleControllable.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/lifecycle/CycleController.java" charset="UTF-8" />
