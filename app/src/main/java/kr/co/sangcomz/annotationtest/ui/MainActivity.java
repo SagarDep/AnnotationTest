@@ -32,13 +32,13 @@ public class MainActivity extends CycleControllerActivity implements View.OnClic
     Button btn;
 
     @BundleField(name = "et1Str")
-    public String et1Str;
+    private String et1Str;
 
     @BundleField(name = "et2Str")
-    public String et2Str;
+    private String et2Str;
 
     @BundleField(name = "et3Str")
-    public String et3Str;
+    private String et3Str;
 
     @Override
     public void onClick(View view) {
