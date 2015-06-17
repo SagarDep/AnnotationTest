@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/lifecycle/CycleBaseLayout.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/lifecycle/CycleControllable.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/lifecycle/CycleController.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/lifecycle/CycleControllerActivity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/lifecycle/CycleFragment.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/transfer/BundleField.java" charset="x-windows-949" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/transfer/BundleMapper.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/transfer/IntentUri.java" charset="x-windows-949" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/core/transfer/UriObject.java" charset="x-windows-949" />
-    <file url="PROJECT" charset="UTF-8" />
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/kr/co/sangcomz/annotationtest/ui/NextActivity.java" charset="UTF-8" />
   </component>
 </project>
