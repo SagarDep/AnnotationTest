@@ -54,7 +54,7 @@ public class MainActivity extends CycleControllerActivity implements View.OnClic
         setContentView(R.layout.activity_main, true); //setViewMap
         bundleField = "ANNOTATION TEST";
 
-        
+
     }
 
     @Override
