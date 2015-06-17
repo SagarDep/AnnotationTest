@@ -59,10 +59,5 @@ public class MainActivity extends CycleControllerActivity implements View.OnClic
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main, true); //setViewMap
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 736938b5df5381c57e8f6a5da032a8fa7389232e
     }
 }
