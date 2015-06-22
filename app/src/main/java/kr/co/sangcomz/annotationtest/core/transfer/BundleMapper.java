@@ -17,8 +17,8 @@ public class BundleMapper {
 			BundleField ref = f.getAnnotation(BundleField.class);
 			String sname = f.getType().getSimpleName();
 			if (ref != null) {
+				f.setAccessible(true);
 				name = ref.name();
-
 				try {
 					if (sname.equals("String")) {
 						bundle.putString(name, (String) f.get(container));

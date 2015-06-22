@@ -18,13 +18,13 @@ public class NextActivity extends CycleControllerActivity {
     TextView textView;
 
     @BundleField(name = "et1Str")
-    public String et1Str;
+    private String et1Str;
 
     @BundleField(name = "et2Str")
-    public String et2Str;
+    private String et2Str;
 
     @BundleField(name = "et3Str")
-    public String et3Str;
+    private String et3Str;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
